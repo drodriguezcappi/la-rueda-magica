@@ -1,0 +1,804 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-size: border-box;
+}
+
+/**--Header**/
+nav div img {
+    width: 90px;
+}
+
+nav ul li {
+    font-size: 20px;
+
+}
+
+nav {
+    background-color: burlywood;
+
+}
+
+/**--MainIndex--**/
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-image: url(../img/fotoportadaindex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.section1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.div1 {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.div1 h3 {
+    margin-top: 20px;
+
+}
+
+/**--Footer--**/
+footer img {
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    height: 150px;
+}
+
+.logo-footer1 {
+    margin-right: 20px;
+}
+
+.logo-footer3 {
+    margin-left: 20px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.div-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**--Categorias--**/
+.sec-1-cate {
+    display: flex;
+    justify-content: center
+}
+
+.sec-1-cate img {
+    width: 500px;
+    height: 500px;
+}
+
+.sec-2-cate {
+    display: flex;
+    justify-content: center
+}
+
+.sec-2-cate img {
+    width: 500px;
+    height: 500px;
+}
+
+/**--Catalogo Completo**/
+.linea-bebe {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.linea-bebe img {
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+}
+
+.juegos-y-juguetes {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.juegos-y-juguetes img {
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+}
+
+.didacticos {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.didacticos img {
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+}
+
+.libros {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.libros img {
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+}
+
+.varios {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.varios img {
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+}
+
+.h2-linea-bebe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 6rem;
+    text-decoration-line: underline;
+    color: burlywood;
+}
+
+.h2-juegos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 6rem;
+    text-decoration-line: underline;
+    color: burlywood;
+}
+
+.h3-didac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 6rem;
+    text-decoration-line: underline;
+    color: burlywood;
+}
+
+.h3-libros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 6rem;
+    text-decoration-line: underline;
+    color: burlywood;
+}
+
+.h3-varios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 6rem;
+    text-decoration-line: underline;
+    color: burlywood;
+}
+
+/**--Producto Destacado**/
+
+.galeria-produc {
+    margin: 20px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.galeria-produc img {
+    width: 100%;
+    height: 400px;
+    display: grid;
+}
+
+.h2-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+/**--Contacto**/
+.section-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.titulo-final{
+    color: black;
+    font-size: 50px;
+}
+
+.form-select1 {
+    width: 500px;
+    height: 40px;
+}
+
+.form-select2 {
+    width: 500px;
+    height: 40px;
+}
+
+.form-select3 {
+    width: 500px;
+    height: 40px;
+}
+
+.section-final {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.section-final img {
+    width: 600px;
+    height: 800px;
+    margin-top: 50px;
+
+}
+
+.section-final p {
+    color: black;
+    font-size: 25px;
+    width: 600px;
+    margin-top: 75px;
+}
+
+
+
+/*!--Media Query--!*/
+@media screen and (max-width:1060px) {
+    nav ul li {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+
+    .div1 {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:430px) {
+    section h2 {
+        color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        font-size: 40px;
+        text-decoration: underline;
+    }
+
+    .div1 {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .sec-1-cate img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .sec-2-cate img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .sec-1-cate img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .sec-2-cate img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .sec-1-cate img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .sec-2-cate img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .sec-1-cate {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-2-cate {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-1-cate img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .sec-2-cate img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .sec-1-cate img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .sec-2-cate img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sec-1-cate img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .sec-2-cate img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .h2-juegos {
+        font-size: 5rem;
+    }
+
+}
+
+@media screen and (max-width:732px) {
+    .h2-juegos {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .h2-juegos {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .h2-juegos {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .h2-linea-bebe {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:732px) {
+    .h2-linea-bebe {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .h2-linea-bebe {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:455px) {
+
+    .h2-linea-bebe {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .h3-didac {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:732px) {
+    .h3-didac {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .h3-didac {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .h3-didac {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .h3-libros {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:732px) {
+    .h3-libros {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .h3-libros {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .h3-libros {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .h3-varios {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:732px) {
+    .h3-varios {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .h3-varios {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .h3-varios {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .linea-bebe img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .libros img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .didacticos img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .varios img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .juegos-y-juguetes img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .galeria-produc img {
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+    .galeria-produc img {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:950px) {
+    .galeria-produc img {
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .galeria-produc {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width:627px) {
+    .h2-producto {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width:505px) {
+    .h2-producto {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:505px) {
+    .galeria-produc {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width:505px) {
+    .galeria-produc img {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:389px) {
+    .h2-producto {
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width:1260px) {
+    .section-final img {
+        width: 500px;
+        height: 700px;
+    }
+
+}
+@media screen and (max-width:1260px) {
+    .section-final p {
+        width: 500px;
+    }
+
+}
+@media screen and (max-width:1260px) {
+    .section-final p {
+        font-size: 23px;
+    }
+
+}
+@media screen and (max-width:1050px) {
+    .section-final img {
+        width: 400px;
+        height: 600px;
+    }
+
+}
+@media screen and (max-width:1050px) {
+    .section-final p {
+        width: 400px;
+    }
+
+}
+@media screen and (max-width:1050px) {
+    .section-final p {
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:830px) {
+    .section-final img {
+        width: 300px;
+        height: 500px;
+    }
+
+}
+@media screen and (max-width:830px) {
+    .section-final p {
+        width: 300px;
+    }
+
+}
+@media screen and (max-width:830px) {
+    .section-final p {
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width:630px) {
+    .section-final  {
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:630px) {
+    .section-final img {
+        width: 400px;
+        height: 600px;
+    }
+
+}
+@media screen and (max-width:630px) {
+    .section-final p {
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .titulo-final {
+        font-size: 40px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .form-select1 {
+        width: 400px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .form-select2 {
+        width: 400px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .form-select3 {
+        width: 400px;
+    }
+
+}
+@media screen and (max-width:470px) {
+    .section-final img {
+        width: 300px;
+        height: 500px;
+    }
+
+}
+@media screen and (max-width:470px) {
+    .section-final p {
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width:470px) {
+    .titulo-final {
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width:470px) {
+    .form-select1 {
+        width: 300px;
+    }
+
+}
+@media screen and (max-width:470px) {
+    .form-select2 {
+        width: 300px;
+    }
+
+}
+@media screen and (max-width:470px) {
+    .form-select3 {
+        width: 300px;
+    }
+
+}
+
