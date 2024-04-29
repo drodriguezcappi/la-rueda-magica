@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-size: border-box;
+}
+//!MAPS 
+//Usado en footer
+$img-footer:(
+    margin-right: 20px,
+);
+//!EXTENDS
+//Usado en producto destacado
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//!MIXINS
+//Usado en index
+@mixin flex($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

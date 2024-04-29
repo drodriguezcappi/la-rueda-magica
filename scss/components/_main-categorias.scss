@@ -1,0 +1,34 @@
+main {
+    section {
+        a {
+            img {}
+        }
+    }
+
+    section {
+        
+
+        a {
+            img {}
+        }
+    }
+
+    .sec-1-cate {
+        display: flex;
+        justify-content: center
+    }
+    .sec-1-cate img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .sec-2-cate {
+        display: flex;
+        justify-content: center
+    }
+
+    .sec-2-cate img {
+        width: 500px;
+        height: 500px;
+    }
+}

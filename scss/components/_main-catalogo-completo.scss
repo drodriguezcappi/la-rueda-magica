@@ -1,0 +1,131 @@
+main {
+    h2 {}
+
+    section {}
+
+    h2 {}
+
+    section {}
+
+    h3 {}
+
+    section {}
+
+    h3 {}
+
+    section {}
+
+    h3 {}
+
+    section {}
+
+    .linea-bebe {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .linea-bebe img {
+        width: 400px;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .juegos-y-juguetes {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .juegos-y-juguetes img {
+        width: 400px;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .didacticos {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .didacticos img {
+        width: 400px;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .libros {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .libros img {
+        width: 400px;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .varios {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .varios img {
+        width: 400px;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .h2-linea-bebe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-size: 6rem;
+        text-decoration-line: underline;
+        color: burlywood;
+    }
+
+    .h2-juegos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-size: 6rem;
+        text-decoration-line: underline;
+        color: burlywood;
+    }
+
+    .h3-didac {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-size: 6rem;
+        text-decoration-line: underline;
+        color: burlywood;
+    }
+
+    .h3-libros {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-size: 6rem;
+        text-decoration-line: underline;
+        color: burlywood;
+    }
+
+    .h3-varios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-size: 6rem;
+        text-decoration-line: underline;
+        color: burlywood;
+    }
+}

@@ -1,0 +1,42 @@
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: $color-principal;
+    height: $ancho + 50;
+
+    h3 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: nth($font-size, 2);
+    }
+
+    .div-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+
+            img {
+                height: 50px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-footer3 {
+        margin-left: 20px;
+    }
+
+    .logo-footer1 {
+        margin-right: map-get($img-footer, margin-right);
+    }
+}

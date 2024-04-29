@@ -1,0 +1,51 @@
+main {
+    .section-contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .titulo-final {
+        color: color-terciario;
+        font-size: nth($font-size,1);
+    }
+
+    .form-select1 {
+        width: 500px;
+        height: 40px;
+    }
+
+    .form-select2 {
+        width: 500px;
+        height: 40px;
+    }
+
+    .form-select3 {
+        width: 500px;
+        height: 40px;
+    }
+
+    .section-final {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .section-final {
+        img {
+            width: 600px;
+            height: 800px;
+            margin-top: 50px;
+        }
+    }
+
+    .section-final {
+        p {
+            color: nth($colores, 3);
+            font-size: 25px;
+            width: 600px;
+            margin-top: 75px;
+        }
+    }
+}
